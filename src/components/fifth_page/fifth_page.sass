@@ -1,0 +1,43 @@
+
+.by-game
+  height: 717px
+  width: 100%
+  background-color: #000
+  display: flex
+  align-items: center
+  justify-content: start
+
+.boxes-game
+  margin: auto
+  width: 50.83%
+  height: 100%
+  background-image: url('../../img/boxes_background.png')
+  background-repeat: no-repeat
+  background-position: left top
+  background-size: cover
+.by-game-info
+  width: 49.17%
+  color: #fff
+  display: flex
+  flex-direction: column
+  padding-left: 32px
+.by-game-info h1
+
+.by-game-text
+  font-family: Roboto
+  font-size: 24px
+  color: #fff
+
+.by-game-platforms
+  width: 319px
+  display: grid
+  align-items: center
+  grid-template-columns: 1fr 1fr
+  grid-auto-rows: auto
+  gap: 3em
+
+  @media ( max-width: 1024px )
+    .boxes-game
+      width: 32.42%
+    .by-game-info
+      width: 67.58%
